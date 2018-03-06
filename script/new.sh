@@ -6,7 +6,7 @@ if [ -z "$1" ]; then
 fi
 
 cat <<EOF > $1.cpp
-/*H* $1.cpp @ imkk *H*/
+/*H* $1.cpp [problem_name] @ imkk *H*/
 
 #include <iostream>
 #include <cstdlib>
@@ -18,7 +18,7 @@ int main() {
   
   // code
   //
-  
+
   exit(EXIT_SUCCESS);
 }
 EOF
