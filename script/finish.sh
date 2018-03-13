@@ -11,6 +11,6 @@ FILENAME=$1.cpp
 cp $FILENAME $CODEPATH/$FILENAME
 git add $CODEPATH/$FILENAME
 git commit -m "Finish $FILENAME"
-rm -f ./$FILENAME a.out input output
+rm -f ./$FILENAME a.out input* output*
 
 ls -lah $CODEPATH/$FILENAME
